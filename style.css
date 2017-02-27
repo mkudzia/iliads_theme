@@ -549,8 +549,8 @@ footer {
 	padding: 2em 0;
 }
 .site-footer {
-	background: #12427b;
-	border-top: 50px solid #335d8d;
+	background: #333333;
+/*	border-top: 50px solid #335d8d;*/
 }
 footer li {
 	list-style-type: none;
