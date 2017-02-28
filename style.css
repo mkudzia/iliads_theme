@@ -26,28 +26,30 @@ end of standard colors
 
 /* Hamilton colors
 
-light greyish blue: #cbd9df; 3
-medium greenish turquoise: #6a93a2; 3
+light greyish blue: #cbd9df; 
+medium greenish turquoise: #6a93a2; 
 
-medium blue: #549db6; 1
-inside of a pool: #2abdca; 3
-also, why lime?: lime; 1
+medium blue: #549db6; 
+inside of a pool: #2abdca; 
+also, why lime?: lime; 
 
 dark greyish blue: #335d8d; 
-slightly lighter greyish blue: #3e7096; 5
+slightly lighter greyish blue: #3e7096; 
 
-darker blue: #3b6898; 5
-medium turquoise: #1a7a8f; 2
+darker blue: #3b6898; 
+medium turquoise: #1a7a8f; 
 
-dark blue: #12427b; 4
-dark turquoise: #275d70; 2
-navy blue: #0f3563; 2
+dark blue: #12427b; 
+dark turquoise: #275d70; 
+navy blue: #0f3563; 
 end of Hamilton colors */
 
 /* Wooster colors 
 
 gold: #e38c03;
 darker gold: #d27b02;
+lighter gold for links: #fcaf36;
+
 maroon/dark pink: #a13856;
 dark dusty rose: #a1586d;
 end of Wooster colors */
@@ -58,44 +60,57 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-
 .page {
 	color: #666666;
 	font-size: 14px;
 	line-height: 200%;
 }
+
 .main {
 	padding: 30px;
 	padding-top: 45px;
 }
+
 .sidebar {
 	background: #cccccc;
 	padding: 30px;
 }
+
+a {
+	color: #fcaf36;
+	text-decoration: underline;
+}
+
 .page h4 {
 	color: #a13856;
 	text-transform: uppercase;
 	margin-bottom: 1em;
 }
+
 .page h5 {
 	color: #666666;
 	font-size: 16px;
 	font-style: italic;
 	margin: 1em 0;
 }
+
 .page p.meta {
 	font-size: 90%;
 	font-style: italic;
 }
+
 .page p+h4, .page table+h4 {
 	margin-top: 2em;
 }
+
 .page p.post-content+h3, .page p.post-content+h4, .page p.post-content+h5 {
 	margin-top: 1em;
 }
+
 .page-button {
 	margin: 2em 0;
 }
+
 .page blockquote {
 	font-size: 14px;
 	line-height: 200%;
@@ -106,13 +121,13 @@ body {
 	margin-right: 1em;
 	margin-bottom: 1em;
 }
+
 .page .wp-post-image {
 	margin-bottom: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
 }
-
 
 .maincontent .container {
 	background: #fff;
@@ -123,10 +138,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #cccccc;
 	padding: 50px 0;
 }
+
 .front-welcome p {
 	font-size: 11pt;
 	font-weight: 300;
 }
+
 .front-welcome h3, .front-welcome h3.page-title,
 .front-audience h3, .front-examples h3, .front-speakers h3, .front-organizers h3, .front-weekend h3 {
 	color: #fff;
@@ -135,17 +152,20 @@ h1, h2, h3, h4, h5, h6 {
 	border: 0;
 	text-shadow: 0px 1px 2px rgba(0,0,0,0.65);
 }
+
 .front-audience {
 	background: #549db6;
 	color: #fff;
 	padding: 50px 0;
 	padding-bottom: 25px;
 }
+
 .front-audience h2, .front-weekend h2 {
 	font-size: 16pt;
 	margin-bottom: 1em;
 	text-align: center;
 }
+
 .front-audience h6, .front-timeline h6 {
 	color: #333333;
 	font-size: 10pt;
@@ -153,9 +173,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 50px;
 	text-align: center;
 }
+
 .front-audience p {
 	color: #333333;
 }
+
 .audience-example {
 	border-radius: 10px;
 	text-align: center;
@@ -163,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 20px;
 	position: relative;
 }
+
 .audience-example.active {
 	background: #2abdca;
 	border-bottom-left-radius: 0;
@@ -554,7 +577,7 @@ li.widget {
 }
 
 .reset {
-	border-top: 10px solid #cbd9df;
+	border-top: 10px solid #666666;
 	margin-bottom: 30px;
 	padding-top: 20px;
 	text-align: center;
