@@ -27,26 +27,21 @@ end of standard colors
 /* Hamilton colors
 
 light greyish blue: #cbd9df; 3
-light greenish turquoise: #6a93a2; 3
+medium greenish turquoise: #6a93a2; 3
 
-turquoise-y blue: #549db6; 1
+medium blue: #549db6; 1
 inside of a pool: #2abdca; 3
 also, why lime?: lime; 1
 
-greyish blue: #4a82ab; 1
-dark greyish blue: #254a65; 2
-nearly identical dark greyish blue: #335d8d; 4
-another dark greyish blue: #3a6797; 3
+dark greyish blue: #335d8d; 
 slightly lighter greyish blue: #3e7096; 5
-greyish turquoise: #3c83a4; 3
-nearly identical greyish turquoise: #1c6c93; 1
 
-another medium blue: #3b6898; 5
+darker blue: #3b6898; 5
 medium turquoise: #1a7a8f; 2
 
 dark blue: #12427b; 4
 dark turquoise: #275d70; 2
-another navy blue: #0f3563; 2
+navy blue: #0f3563; 2
 end of Hamilton colors */
 
 /* Wooster colors 
@@ -199,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-weekend {
-	background: #4a82ab;
+	background: #3e7096;
 	color: #fff;
 	padding: 50px 0;
 }
@@ -230,8 +225,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-examples {
-	background: #3c83a4;
-	background: #1c6c93;
+	background: #3e7096;
+	background: #3b6898;
 	display: none;
 	padding-bottom: 50px;
 }
@@ -284,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
   transition:.25s;
 }
 .front-speakers a img:hover, .organizer a img:hover {
-	border: 5px solid #3c83a4;
+	border: 5px solid #3e7096;
 }
 .front-speakers p, .organizer p {
 	color: #333333;
@@ -310,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 6em;
 }
 .speaker p.role {
-	background: #3c83a4;
+	background: #3e7096;
 	color: #fff;
 	font-size: 90%;
 	font-weight: bold;
@@ -391,7 +386,7 @@ a.more-btn {
 	margin-top: 1em;
 }
 .front-weekend a.more-btn {
-	background: #254a65;
+	background: #335d8d;
 	border: 1px solid #333333;
 }
 
@@ -1169,7 +1164,7 @@ div.ss-form html input[type=button],
 div.ss-form input[type=reset], 
 div.ss-form input[type=submit] {
 	-webkit-appearance: button;
-	background: #3a6797;
+	background: #335d8d;
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -1203,7 +1198,7 @@ div.ss-resp-message p {
 	margin: 1em 0;
 }
 a.ss-bottom-link {
-	background: #3a6797;
+	background: #335d8d;
 	border-radius: 5px;
 	color: #fff;
 	padding: .5em 1em;
@@ -1233,7 +1228,7 @@ div.ss-response-footer {
 #cntctfrm_contact_form input[type=reset], 
 #cntctfrm_contact_form input[type=submit] {
 	-webkit-appearance: button;
-	background: #3a6797;
+	background: #335d8d;
 	border: 0;
 	border-radius: 5px;
 	color: #fff;
@@ -1350,7 +1345,7 @@ div.ss-response-footer {
 	}
 	
 	.front-weekend .col-sm-6 {
-		border-bottom: 1px solid #254a65;
+		border-bottom: 1px solid #335d8d;
 		border-radius: 0;
 		margin: 0 1em;
 		margin-bottom: 2em;
