@@ -12,16 +12,18 @@ Version: 0.2
 
 /* Standard colors 
 
-background light grey: #dddddd; 
-another light grey: #cccccc; 
-icy blue grey: #d7e5f3; 
-medium grey: #666666; 
+background light grey: #dddddd;  
+medium grey: #666666; -- get rid of this one for darker charcoal
 dark charcoal: #333333; 
 almost black: #222222; 
-pink, for errors: #f39f9f; 
-darker, orangier pink: #c85252; 
+
+blue for links: #0067c5;
+pink for errors: #f39f9f; 
+darker orangier pink: #c85252; 
 red: #b93a3a; 
 end of standard colors
+
+another light grey: #cccccc; 
 */
 
 /* Hamilton colors
@@ -35,9 +37,6 @@ also, why lime?: lime;
 
 dark greyish blue: #335d8d; 
 slightly lighter greyish blue: #3e7096; 
-
-darker blue: #3b6898; 
-medium turquoise: #1a7a8f; 
 
 dark blue: #12427b; 
 dark turquoise: #275d70; 
@@ -72,12 +71,12 @@ body {
 }
 
 .sidebar {
-	background: #cccccc;
+	background: #dddddd;
 	padding: 30px;
 }
 
 a {
-	color: #fcaf36;
+	color: #0067c5;
 	text-decoration: underline;
 }
 
@@ -130,12 +129,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .maincontent .container {
-	background: #fff;
+	background: #ffffff;
 }
 
 .front-welcome {
 	background: #333333;
-	color: #cccccc;
+	color: #dddddd;
 	padding: 50px 0;
 }
 
@@ -146,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .front-welcome h3, .front-welcome h3.page-title,
 .front-audience h3, .front-examples h3, .front-speakers h3, .front-organizers h3, .front-weekend h3 {
-	color: #fff;
+	color: #ffffff;
 	font-size: 14pt;
 	text-align: center;
 	border: 0;
@@ -155,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .front-audience {
 	background: #549db6;
-	color: #fff;
+	color: #ffffff;
 	padding: 50px 0;
 	padding-bottom: 25px;
 }
@@ -218,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .front-weekend {
 	background: #3e7096;
-	color: #fff;
+	color: #ffffff;
 	padding: 50px 0;
 }
 .option-weekend {
@@ -234,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: justify;
 }
 .front-weekend p a {
-	color: #fff;
+	color: #ffffff;
 }
 
 .example-btn {
@@ -248,8 +247,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-examples {
-	background: #3e7096;
-	background: #3b6898;
+	background: #333333;
+/*	background: #3b6898; why two? */
 	display: none;
 	padding-bottom: 50px;
 }
@@ -262,22 +261,22 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: none;
 }
 .front-examples h5 {
-	color: #fff;
+	color: #ffffff;
 	font-size: 115%;
 }
 .front-examples a {
-	color: #fff;
+	color: #ffffff;
 }
 .front-examples p {
-	color: #222222;
-	color: #ccc;
+/*	color: #222222;*/
+	color: #dddddd;
 }
 .front-examples .example {
 	text-align: center;
 }
 .front-speakers {
-	background: #cccccc;
-	color: #fff;
+	background: #dddddd;
+	color: #ffffff;
 	padding: 50px 0;
 }
 .front-speakers h3 {
@@ -294,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .front-speakers img, .organizer img {
 	border-radius: 200px;
-	border: 5px solid #cccccc;
+	border: 5px solid #dddddd;
   -o-transition:.25s;
   -ms-transition:.25s;
   -moz-transition:.25s;
@@ -329,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .speaker p.role {
 	background: #3e7096;
-	color: #fff;
+	color: #ffffff;
 	font-size: 90%;
 	font-weight: bold;
 	font-weight: normal;
@@ -348,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .organizer:hover {
-	background: #cccccc;
+	background: #dddddd;
 }
 
 .front-organizers {
@@ -360,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0px 1px 0px rgba(0,0,0,0.25);
 }
 .organizer-committees {
-	background: #ccc;
+	background: #dddddd;
 	border-radius: 10px;
 	padding: 2em;
 	padding-left: 2em;
@@ -372,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 10px;
 }
 .organizer-committees p a:hover {
-	background: #cccccc;
+	background: #dddddd;
 	border-radius: 3px;
 	text-decoration: none;
 }
@@ -436,8 +435,8 @@ a.more-btn {
 .dateblock {
 	background: url('img/calendar.png') no-repeat top left;
 	background: url('img/icon-calendar-black.png') no-repeat top left;
-	color: white;
-	color: #000;
+	color: #ffffff;
+/*	color: #000;*/
 	margin: 120px 0 25px 0;
 	padding-left: 110px;
 }
@@ -456,7 +455,7 @@ a.more-btn {
 	font-size: 16px;
 	margin-bottom: 15px;
 	padding: 5px 10px;
-	color: #fff;
+	color: #ffffff;
 	font-weight: normal;
 	width: 100%;
 	text-align: center;
@@ -484,7 +483,7 @@ a.button:hover {
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #ffffff;
 	font-size: 16px;
 }
 .navbar .container-fluid {
@@ -496,18 +495,18 @@ a.button:hover {
 }
 .navbar-default .navbar-nav>li>a:hover {
 	background: #0f3563;
-	color: #fff;
+	color: #ffffff;
 }	
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	color: #666666;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
 	background: #0f3563;
-	color: #fff;
+	color: #ffffff;
 }
 .navbar-default .navbar-toggle {
-	background: #ccc;
-	border-color: #ddd;
+	background: #dddddd;
+	border-color: #dddddd;
 }
 .navbar-collapse.in {
     overflow: hidden;
@@ -517,18 +516,18 @@ a.button:hover {
 
 .breadcrumbs {
 	background: #333333;
-	color: #ccc;
+	color: #dddddd;
 	padding: 1em 1em;
 	position: relative;
 	top: -20px;
 }
 .breadcrumbs a {
-	color: #fff;
+	color: #ffffff;
 }
 
 .section-header h4 {
 	background: #a1586d;
-	color: #fff;
+	color: #ffffff;
 	font-size: 14px;
 	padding: 10px 15px;
 	margin-top: 0;
@@ -553,7 +552,7 @@ li.widget {
 }
 
 .pager-nav {
-	background: #cccccc;
+	background: #dddddd;
 	padding: 10px 0;
 }
 .pager-center {
@@ -595,7 +594,7 @@ p.search-links {
 p.search-links a {
 	background: #333333;
 	border: 0;
-	color: #fff;
+	color: #ffffff;
 	font-size: 10pt;
 	margin: 0;
 }
@@ -609,7 +608,7 @@ p.search-links a+a {
 
 footer {
 	background: #335d8d;
-	color: #fff;
+	color: #ffffff;
 	line-height: 175%;
 	padding: 2em 0;
 }
@@ -628,11 +627,11 @@ footer li {
 	padding: 2em 0 1em 0;
 }
 footer.copyright a {
-	color: #fff;
+	color: #ffffff;
 	margin: 0 0.5em;
 }
 p.copyright-text {
-	color: #fff;
+	color: #ffffff;
 	padding: 1em;
 }
 
@@ -691,12 +690,12 @@ ul.social {
 .blog-post .btn-default, .btn-primary {
 	background: #6a93a2;
 	border-color: #6a93a2;
-	color: #fff;
+	color: #ffffff;
 }
 .blog-post a.btn-default:hover, a.btn-primary:hover {
 	background: #275d70;
 	border-color: #275d70;
-	color: #fff;
+	color: #ffffff;
 }
 .blog-post h3 {
 	font-size: 18px;
@@ -712,7 +711,7 @@ h1.entry-title a {
 	color: #333333;
 }
 .entry-meta a {
-	color: #3b6898;
+	color: #0067c5;
 }
 
 .blog-post h3, .page h3 {
@@ -721,8 +720,8 @@ h1.entry-title a {
 
 
 h3.page-title {
-	border-bottom: 20px solid #cccccc;
-	color: #1a7a8f;
+	border-bottom: 20px solid #dddddd;
+	color: #a13856;
 	font-size: 18px;
 	text-transform: uppercase;
 	padding-bottom: 1em;
@@ -736,7 +735,7 @@ h3.page-title {
 }
 
 .wp-caption {
-	background: #cccccc;
+	background: #dddddd;
 	border: none;
 	color: #666666;
 	padding: 5px;
@@ -769,7 +768,7 @@ h3.page-title {
 }
 
 p.caption {
-	background: #cccccc;
+	background: #dddddd;
 	font-size: 80%;
 	font-style: italic;
 	padding: 5px;
@@ -807,7 +806,7 @@ ol.conf-parts > li:before {
 
 	padding-top: .25em;
 
-	color: #fff;
+	color: #ffffff;
 	font-size: 24pt;
 	font-weight: bold;
 	text-align: center;
@@ -819,7 +818,7 @@ a.conf-part-btn {
 	border: 1px solid #666666;
 	border-radius: 3px;
 	display: block;
-	color: #fff;
+	color: #ffffff;
 	cursor: pointer;
 	font-size: 12pt;
 	font-weight: 300;
@@ -872,7 +871,7 @@ h2.conf-part-heading {
 
 
 #front-table-dates, #front-table-costs {
-	background: #cccccc;
+	background: #dddddd;
 	border-radius: 5px;
 	margin: 1em;
 }
@@ -921,7 +920,7 @@ h2.conf-part-heading {
 
 #timeline {
 	background: #ddd url('img/bkgd-graph.png') top left;
-	border: 5px solid #fff;
+	border: 5px solid #ffffff;
 	border-radius: 50px;
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.65);
 	height: 70px;
@@ -957,7 +956,7 @@ h2.conf-part-heading {
  	margin-right: -1px;
 }
 #timeline ul li a {
-	color: #fff;
+	color: #ffffff;
 	cursor: pointer;
 	display: block;
 	font-weight: bold;
@@ -1026,7 +1025,7 @@ a.popup-key-institute {
 }
 
 .programs h2 {
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #dddddd;
 	font-size: 16pt;
 	margin: 0;
 	padding-bottom: 10px;
@@ -1042,7 +1041,7 @@ a.popup-key-institute {
 }
 
 .program {
-	background: #cccccc;
+	background: #dddddd;
 	margin-bottom: 2em;
 }
 .program table {
@@ -1050,7 +1049,7 @@ a.popup-key-institute {
 	margin-top: 0;
 }
 .program table tr {
-	border-bottom: 1px solid #cccccc;
+	border-bottom: 1px solid #dddddd;
 }
 .program table td {
 	color: #a13856;
@@ -1063,7 +1062,7 @@ a.popup-key-institute {
 }
 
 #nav_menu-2 {
-	border-top: 1px solid #cccccc;
+	border-top: 1px solid #dddddd;
 	margin-top: 2em;
 	padding-top: 2em;
 }
@@ -1082,7 +1081,7 @@ a.popup-key-institute {
   padding: .5em 1em;
 }
 #primary-sidebar ul li a:hover {
-	background: #ccc;
+	background: #dddddd;
 	text-decoration: none;
 }
 
@@ -1091,7 +1090,7 @@ Jacob Heil -- 2014.09.17 -- Tweaking the CSS, Trying to style the Google Form.
 */
 
 code {
-	background-color: white;
+	background-color: #ffffff;
 	color: #335D8D;
 }
 
@@ -1126,14 +1125,14 @@ div.errorheader {
 
 div.wpgform-column, div.ss-resp-content {
 	margin-bottom: 20px;
-	background: #cccccc;
-	background: #d7e5f3;
-	background: #d7e5f3;
+/*	background: #cccccc;
+	background: #d7e5f3;*/
+	background: #dddddd;
 	border-radius: 10px;
 	padding: 20px;
 }
 div.ss-form-entry ul {
-	background: #fff;
+	background: #ffffff;
 	border-radius: 5px;
 	padding: 10px inherit;
 }
@@ -1155,8 +1154,8 @@ div.ss-form-entry label.ss-q-item-label+textarea {
 }
 div.ss-form-entry>input,
 div.ss-form-entry>textarea {
-	background-color: #fff;
-	border: 1px solid #cccccc;	
+	background-color: #ffffff;
+	border: 1px solid #dddddd;	
 	font-family: inherit;
 	padding: 5px;
 }
@@ -1165,9 +1164,9 @@ label.ss-q-item-label {
 }
 
 h2.ss-page-title {
-	border-bottom: 2px solid #d7e5f3;
-	color: #1a7a8f;
-	color: #3b6898;
+	border-bottom: 2px solid #dddddd;
+	color: #a13856;
+/*	color: #3b6898; why are there two colors set? */ 
 	font-size: 14pt;
 	margin: 0;
 	margin-bottom: 0.5em;
@@ -1190,7 +1189,7 @@ div.ss-form input[type=submit] {
 	background: #335d8d;
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: #ffffff;
 	cursor: pointer;
 	padding: 0.5em 1.5em;
 }
@@ -1202,7 +1201,7 @@ div.ss-form input[type=submit]:hover {
 }
 
 div.ss-navigate {
-	background: #cccccc;
+	background: #dddddd;
 	border-radius: 5px;
 	margin-top: 1em;
 	padding: 10px;
@@ -1223,7 +1222,7 @@ div.ss-resp-message p {
 a.ss-bottom-link {
 	background: #335d8d;
 	border-radius: 5px;
-	color: #fff;
+	color: #ffffff;
 	padding: .5em 1em;
 }
 
@@ -1232,7 +1231,7 @@ div.ss-response-footer {
 }
 
 #cntctfrm_contact_form {
-	background: #d7e5f3;
+	background: #dddddd;
 	border-radius: 10px;
 	padding: 1em;
 }
@@ -1254,7 +1253,7 @@ div.ss-response-footer {
 	background: #335d8d;
 	border: 0;
 	border-radius: 5px;
-	color: #fff;
+	color: #ffffff;
 	cursor: pointer;
 	padding: 1em 2em;
 }
@@ -1275,25 +1274,25 @@ div.ss-response-footer {
 }
 
 .example-page {
-	background: #cccccc;
+	background: #dddddd;
 	padding: 10px;
 	margin: 1em 0;
 }
 
 .expert {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #dddddd;
 /* 	border-top: 10px solid #94c0e5; */
 	margin-bottom: 1.5em;
 	padding-bottom: 1em;
-	background: #cccccc;
+	background: #dddddd;
 	padding: 1em;
 }
 .expert h3 {
 }
 .expert a.signup {
-	background: #3b6898;
+	background: #0067c5;
 	border-radius: 5px;
-	color: #fff;
+	color: #ffffff;
 	padding: 10px 15px;
 	margin: 20px 0;
 	text-decoration: none;
@@ -1330,7 +1329,7 @@ div.ss-response-footer {
 		padding: 0 1em;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-		color: #ccc;
+		color: #dddddd;
 	}
 
 	.dateblock {
@@ -1395,7 +1394,7 @@ div.ss-response-footer {
 		height: 125px;
 		width: 125px;
 		border-radius: 200px;
-		border: 5px solid #cccccc;
+		border: 5px solid #dddddd;
 	}
 	.front-speakers p {
 		padding: 0 2em;
