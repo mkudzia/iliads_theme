@@ -27,6 +27,16 @@ red error text: #b93a3a;
 end of standard colors 
 */
 
+/* Wooster colors 
+
+gold: #e38c03;
+darker gold: #d27b02;
+lighter gold for links: #fcaf36;
+
+maroon/dark pink: #a13856;
+dark dusty rose: #a1586d;
+end of Wooster colors */
+
 /* Hamilton colors
 
 light greyish blue: #cbd9df; 
@@ -42,17 +52,9 @@ slightly lighter greyish blue: #3e7096;
 dark blue: #12427b; 
 dark turquoise: #275d70; 
 navy blue: #0f3563; 
+
 end of Hamilton colors */
 
-/* Wooster colors 
-
-gold: #e38c03;
-darker gold: #d27b02;
-lighter gold for links: #fcaf36;
-
-maroon/dark pink: #a13856;
-dark dusty rose: #a1586d;
-end of Wooster colors */
 
 body {
 	background: #ddd;
