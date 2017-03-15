@@ -12,18 +12,19 @@ Version: 0.2
 
 /* Standard colors 
 
-background light grey: #dddddd;  
-medium grey: #666666; -- get rid of this one for darker charcoal
+background light grey: #dddddd;
+another light grey: #cccccc;  
 dark charcoal: #333333; 
 almost black: #222222; 
 
-blue for links: #0067c5;
-pink for errors: #f39f9f; 
-darker orangier pink: #c85252; 
-red: #b93a3a; 
-end of standard colors
+blue for links: #0000cc;
 
-another light grey: #cccccc; 
+for errors:
+pink background: #f39f9f; 
+dark orangy-pink border: #c85252; 
+red error text: #b93a3a; 
+
+end of standard colors 
 */
 
 /* Hamilton colors
@@ -54,20 +55,18 @@ dark dusty rose: #a1586d;
 end of Wooster colors */
 
 body {
-	/*background: #82858d url('img/bkgd-page.png') repeat-y top center;*/
 	background: #ddd;
 	font-family: 'Lato', sans-serif;
 }
 
 .page {
-	color: #666666;
+	color: #333333;
 	font-size: 14px;
 	line-height: 200%;
 }
 
 .main {
-	padding: 30px;
-	padding-top: 45px;
+	padding: 45px 30px 30px 30px;
 }
 
 .sidebar {
@@ -76,7 +75,7 @@ body {
 }
 
 a {
-	color: #0067c5;
+	color: #0000cc;
 	text-decoration: underline;
 }
 
@@ -87,7 +86,7 @@ a {
 }
 
 .page h5 {
-	color: #666666;
+	color: #333333;
 	font-size: 16px;
 	font-style: italic;
 	margin: 1em 0;
@@ -316,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px;
 }
 .speaker:hover, .organizer:hover {
-	background: #666666;
+	background: #333333;
   -o-transition:.25s;
   -ms-transition:.25s;
   -moz-transition:.25s;
@@ -377,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p.footnote {
-	color: #666666;
+	color: #333333;
 	font-style: italic;
 	text-align: center;
 	margin-top: 1em;
@@ -387,7 +386,7 @@ p.footnote {
 a.more-btn {
 	border-radius: 3px;
 	background: #222222;
-	border: 1px solid #666666;
+	border: 1px solid #333333;
 	display: block;
 	font-size: 12pt;
 	font-weight: 300;
@@ -401,7 +400,7 @@ a.more-btn {
 	margin-top: 0;
 }
 .front-speakers a.more-btn, .front-organizers a.more-btn, .front-dates a.more-btn {
-	background: #666666;
+	background: #333333;
 	border: 1px solid #333333;
 }
 .front-speakers a.more-btn+a.more-btn {
@@ -498,7 +497,7 @@ a.button:hover {
 	color: #ffffff;
 }	
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-	color: #666666;
+	color: #333333;
 }
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
 	background: #0f3563;
@@ -544,7 +543,7 @@ li.widget {
 	margin: 0;
 }
 .sidebar h2 {
-	color: #666666;
+	color: #333333;
 	font-size: 16px;
 	text-transform: uppercase;
 	margin: 0;
@@ -576,7 +575,7 @@ li.widget {
 }
 
 .reset {
-	border-top: 10px solid #666666;
+	border-top: 10px solid #333333;
 	margin-bottom: 30px;
 	padding-top: 20px;
 	text-align: center;
@@ -621,7 +620,7 @@ footer li {
 }
 
 .copyright {
-	color: #666666;
+	color: #333333;
 	font-size: 12px;
 	margin-top: 0;
 	padding: 2em 0 1em 0;
@@ -711,7 +710,7 @@ h1.entry-title a {
 	color: #333333;
 }
 .entry-meta a {
-	color: #0067c5;
+	color: #0000cc;
 }
 
 .blog-post h3, .page h3 {
@@ -737,7 +736,7 @@ h3.page-title {
 .wp-caption {
 	background: #dddddd;
 	border: none;
-	color: #666666;
+	color: #333333;
 	padding: 5px;
 }
 .wp-caption .wp-caption-text,
@@ -815,7 +814,7 @@ ol.conf-parts > li:before {
 }
 a.conf-part-btn {
 	background: #222222;
-	border: 1px solid #666666;
+	border: 1px solid #333333;
 	border-radius: 3px;
 	display: block;
 	color: #ffffff;
@@ -1011,7 +1010,7 @@ h2.conf-part-heading {
 	display: inline-block;
 	height: 1.5em;
 	width: 1.5em;
-	border: 1px solid #666666;
+	border: 1px solid #333333;
 	vertical-align: top;
 	margin-right: .5em;
 }
@@ -1109,7 +1108,7 @@ code {
 }
 
 div.ss-form-heading div.ss-required-asterisk {
-	color: #666666;
+	color: #333333;
 	font-size: 90%;
 	font-style: italic;
 	font-weight: normal;
@@ -1125,8 +1124,6 @@ div.errorheader {
 
 div.wpgform-column, div.ss-resp-content {
 	margin-bottom: 20px;
-/*	background: #cccccc;
-	background: #d7e5f3;*/
 	background: #dddddd;
 	border-radius: 10px;
 	padding: 20px;
@@ -1290,7 +1287,7 @@ div.ss-response-footer {
 .expert h3 {
 }
 .expert a.signup {
-	background: #0067c5;
+	background: #0000cc;
 	border-radius: 5px;
 	color: #ffffff;
 	padding: 10px 15px;
