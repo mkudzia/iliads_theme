@@ -77,7 +77,7 @@ body {
 }
 
 a {
-	color: #0000cc;
+	color: #fcaf36;
 	text-decoration: underline;
 }
 
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-weekend p a {
-	color: #ffffff;
+	color: #fcaf36;
 }
 
 .example-btn {
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-examples a {
-	color: #ffffff;
+	color: #fcaf36;
 }
 
 .front-examples p {
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-speakers h4 a, .organizer h4 a {
-	color: #333333;
+	color: #fcaf36;
 }
 
 .front-speakers img, .organizer img {
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-speakers a img:hover, .organizer a img:hover {
-	border: 5px solid #3e7096;
+	border: 5px solid #fcaf36;
 }
 
 .front-speakers p, .organizer p {
@@ -672,7 +672,7 @@ footer li {
 }
 
 footer.copyright a {
-	color: #ffffff;
+	color: #fcaf36;
 	margin: 0 0.5em;
 }
 
@@ -1387,9 +1387,9 @@ div.ss-response-footer {
 .expert h3 {}
 
 .expert a.signup {
-	background: #0000cc;
+	background: #ffffff;
 	border-radius: 5px;
-	color: #ffffff;
+	color: #0000cc;
 	padding: 10px 15px;
 	margin: 20px 0;
 	text-decoration: none;
