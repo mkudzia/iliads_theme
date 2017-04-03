@@ -1414,6 +1414,13 @@ div.ss-response-footer {
 	border-radius: 0 !important;
 }
 
+div.example-page.row div.col-sm-7.col-sm-offset-1 a,
+div.example-page.row div.col-sm-7.col-sm-offset-1 a:hover,
+div.example-page.row div.col-sm-7.col-sm-offset-1 a:focus {
+	color: #a13856;
+}
+
+
 @media (max-width: 767px) {
 	
 	.site-header {
