@@ -1400,8 +1400,12 @@ div.ss-response-footer {
 }
 
 .expertise {
-	background: #ddd;
+	background: #cccccc;
 	padding: 1em;
+}
+
+.expertise strong {
+	margin-left: -12em;
 }
 
 .clear {
