@@ -1384,6 +1384,10 @@ div.ss-response-footer {
 	padding: 1em;
 }
 
+.expert p a {
+	color: #0000cc;
+}
+
 .expert h3 {}
 
 .expert a.signup {
@@ -1399,7 +1403,7 @@ div.ss-response-footer {
 	background: #3b6898;
 }
 
-.expertise {
+div.expertise {
 	background: #cccccc;
 	padding: 1em;
 }
