@@ -35,7 +35,7 @@ end of standard colors
 CDLA --
 orange: #eb9334;
 burnt orange: #c66128;
-gray: #58595B;
+gray: #58595b;
 white: #ffffff;
 
 Oxy Official --
@@ -47,13 +47,13 @@ end of Oxy colors */
 
 
 body {
-	background: #ddd;
+	background: #dddddd;
 	font-family: 'Lato', sans-serif;
 }
 
 .page {
 	color: #333333;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 200%;
 }
 
@@ -79,7 +79,7 @@ a {
 
 .page h5 {
 	color: #333333;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: italic;
 	margin: 1em 0;
 }
@@ -102,7 +102,7 @@ a {
 }
 
 .page blockquote {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 200%;
 }
 
@@ -125,8 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .front-welcome {
-	background: #333333;
-	color: #dddddd;
+	background: #fff;
+	color: #58595b;
 	padding: 50px 0;
 }
 
@@ -137,11 +137,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .front-welcome h3, .front-welcome h3.page-title,
 .front-audience h3, .front-examples h3, .front-speakers h3, .front-organizers h3, .front-weekend h3 {
-	color: #ffffff;
-	font-size: 14pt;
+	color: #c66128;
+	font-size: 24px;
 	text-align: center;
 	border: 0;
-	text-shadow: 0px 1px 2px rgba(0,0,0,0.65);
+	text-shadow: 0px 1px 2px #ddd;
 }
 
 .front-audience {
@@ -494,6 +494,11 @@ a.button:hover {
 	margin-top:20px;
 }
 
+.navbar-inverse {
+	background: #58595b;
+	border-color: #58595b;
+}
+
 .navbar-default {
 	background: #12427b;
 	border: 0;
@@ -515,22 +520,22 @@ a.button:hover {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-	background: #0f3563;
+	background: #58595b;
 	color: #ffffff;
 }	
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-	color: #333333;
+	color: #58595b;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-	background: #0f3563;
+	background: #58595b;
 	color: #ffffff;
 }
 
 .navbar-default .navbar-toggle {
-	background: #dddddd;
-	border-color: #dddddd;
+	background: #58595b;
+	border-color: #58595b;
 }
 
 .navbar-collapse.in {
@@ -552,7 +557,7 @@ a.button:hover {
 .section-header h4 {
 	background: #a1586d;
 	color: #ffffff;
-	font-size: 14px;
+	font-size: 16px;
 	padding: 10px 15px;
 	margin-top: 0;
 }
@@ -616,7 +621,7 @@ li.widget {
 }
 
 p.search-links {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: .5em;
 	text-align: right;
 }
@@ -1442,7 +1447,7 @@ div.example-page.row div.col-sm-7.col-sm-offset-1 a:focus {
 	}
 
 	.buttons .button {  
-		font-size: 14px;
+		font-size: 16px;
 		margin: 0 10px 10px 0;
 		padding: 5px 10px;
 	}
