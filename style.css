@@ -10,6 +10,7 @@ Version: 0.2
 @import url('css/bootstrap.min.css');
 @import url('css/lightbox.css');
 
+/* These colors stay the same from year to year, barring a redesign */
 /* Standard colors 
 
 background light grey: #dddddd;
@@ -27,6 +28,8 @@ red error text: #b93a3a;
 end of standard colors 
 */
 
+
+/* This is where you add your institutional colors for a given year */
 /* Oxy colors 
 
 CDLA --
