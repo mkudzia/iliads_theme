@@ -27,33 +27,13 @@ red error text: #b93a3a;
 end of standard colors 
 */
 
-/* Wooster colors 
+/* Oxy colors 
 
-gold: #e38c03;
-darker gold: #d27b02;
-lighter gold for links: #fcaf36;
+orange: #EB9334;
+burnt orange: #C66128;
+gray: #58595B;
 
-maroon/dark pink: #a13856;
-dark dusty rose: #a1586d;
-end of Wooster colors */
-
-/* Hamilton colors
-
-light greyish blue: #cbd9df; 
-medium greenish turquoise: #6a93a2; 
-
-medium blue: #549db6; 
-inside of a pool: #2abdca; 
-also, why lime?: lime; 
-
-dark greyish blue: #335d8d; 
-slightly lighter greyish blue: #3e7096; 
-
-dark blue: #12427b; 
-dark turquoise: #275d70; 
-navy blue: #0f3563; 
-
-end of Hamilton colors */
+end of Oxy colors */
 
 
 body {
