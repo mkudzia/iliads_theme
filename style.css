@@ -17,9 +17,7 @@ background light grey: #dddddd;
 another light grey: #cccccc;  
 dark charcoal: #333333; 
 almost black: #222222; 
-
 blue for links: #0000cc;
-
 for errors:
 pink background: #f39f9f; 
 dark orangy-pink border: #c85252; 
@@ -67,12 +65,12 @@ body {
 }
 
 a {
-	color: #fcaf36;
+	color: #c66128;
 	text-decoration: underline;
 }
 
 .page h4 {
-	color: #a13856;
+	color: #c66128;
 	text-transform: uppercase;
 	margin-bottom: 1em;
 }
@@ -425,11 +423,11 @@ a.more-btn {
 
 .site-header {
 	padding: 0;
-	background: #335d8d;
+/*	background: #335d8d;
 	background: #3e7096 url('img/site-header.jpg') no-repeat top center;
-	background: #3e7096 url('img/site-header-green.jpg') no-repeat top center;
-	background: #d4aa00 url('img/site-header-wooster.jpg') no-repeat top center;
-	/* Greg or Jacob I'm gonna let you deal with this^ at some point */
+	background: #3e7096 url('img/site-header-green.jpg') no-repeat top center;*/
+	background: #c66128 url('img/site-header-wooster.jpg') no-repeat top center;
+/*	background: url('wp-content/uploads/2014/08/site-header-oxy.png') no-repeat top center;*/
 	height: 400px;
 	/*max-height: 400px;*/
 }
@@ -499,6 +497,12 @@ a.button:hover {
 	border-color: #58595b;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+}
+
 .navbar-default {
 	background: #12427b;
 	border: 0;
@@ -519,19 +523,29 @@ a.button:hover {
 	height: auto;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
-	background: #58595b;
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:active {
+	background: #c66128;
 	color: #ffffff;
 }	
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+	background: #c66128;
+	color: #ffffff;
+}
 
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	color: #58595b;
 }
 
-.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:active {
 	background: #58595b;
 	color: #ffffff;
 }
+
 
 .navbar-default .navbar-toggle {
 	background: #58595b;
@@ -576,7 +590,7 @@ li.widget {
 }
 
 .sidebar h2 {
-	color: #333333;
+	color: #dddddd;
 	font-size: 16px;
 	text-transform: uppercase;
 	margin: 0 0 1em 0;
@@ -652,7 +666,7 @@ footer {
 
 .site-footer {
 	background: #333333;
-	border-top: 50px solid #fcaf36;
+	border-top: 50px solid #c66128;
 }
 
 footer li {
@@ -774,7 +788,7 @@ h1.entry-title a {
 
 h3.page-title {
 	border-bottom: 20px solid #dddddd;
-	color: #a13856;
+	color: #c66128;
 	font-size: 18px;
 	text-transform: uppercase;
 	padding-bottom: 1em;
@@ -1247,7 +1261,7 @@ label.ss-q-item-label {
 
 h2.ss-page-title {
 	border-bottom: 2px solid #dddddd;
-	color: #a13856;
+	color: #c66128;
 	font-size: 14pt;
 	margin: 0;
 	margin-bottom: 0.5em;
