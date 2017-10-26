@@ -425,9 +425,9 @@ a.more-btn {
 	padding: 0;
 /*	background: #335d8d;
 	background: #3e7096 url('img/site-header.jpg') no-repeat top center;
-	background: #3e7096 url('img/site-header-green.jpg') no-repeat top center;*/
-	background: #c66128 url('img/site-header-wooster.jpg') no-repeat top center;
-	background: url('http://iliads.org/wp-content/uploads/2014/08/site-header-oxy.png') no-repeat top center;
+	background: #3e7096 url('img/site-header-green.jpg') no-repeat top center;
+	background: #c66128 url('img/site-header-wooster.jpg') no-repeat top center; */
+	background: #eb9334 url('http://iliads.org/wp-content/uploads/2014/08/site-header-oxy.png') no-repeat top center;
 	height: 400px;
 	/*max-height: 400px;*/
 }
